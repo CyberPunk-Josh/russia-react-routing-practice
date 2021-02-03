@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+
+.aw-vertical-align{
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navegacion{
+  background: rgba(241, 241, 241, 0.596);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.links li{
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+
+@media(min-width:360px){
+  .navegacion{
+      background-color: black;
+  }
+  .nav-item a{
+      color: #ffffff;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(min-width:760px){
+  .navegacion{
+      background: rgba(0, 0, 0, 0.199);
+  }
+  .nav-item a{
+      color: #000000;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.top-nav-collapse{
+  background: rgba(0, 0, 0, 0.74) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-nav-collapse a{
+  color: #ffffff;
+}
+
+/* header */
+.fondo{
+  background-image: url('./img/fondo_russia.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome{
+  height: 100vh;
+  overflow: hidden;
+}
+
+section{
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+.texto{
+  height: 50vh;
+  overflow: hidden;
+}
+
+.texto img{
+  width: 550px;
+  height: auto;
+}
+
+footer{
+  background-color: crimson;
+  overflow: hidden;
+  height: 10vh;
+}
+
+.lista li{
+  height: 10vh;
 }
